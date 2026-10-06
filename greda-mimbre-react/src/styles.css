@@ -1,0 +1,76 @@
+/* Estilos propios de Greda & Mimbre.
+   Bootstrap 5 aporta la base; aquí sólo se ajusta la identidad visual
+   y el comportamiento del carrito tipo "offcanvas" en móvil. */
+
+:root {
+  --gm-terracota: #c1683f;
+  --gm-tierra: #7a6a58;
+}
+
+body {
+  background-color: #faf6f1;
+  color: #3a332c;
+}
+
+.gm-navbar {
+  background-color: var(--gm-terracota) !important;
+}
+
+.gm-logo {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Imagen del producto dentro de la Card */
+.gm-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.gm-precio {
+  color: var(--gm-terracota);
+  font-weight: 700;
+}
+
+/* ---- Carrito como panel lateral ---- */
+/* En escritorio es una columna fija; en móvil se transforma en un panel
+   deslizante (offcanvas) controlado por el estado de React. */
+.gm-carrito-panel {
+  position: sticky;
+  top: 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .gm-carrito-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 85%;
+    max-width: 360px;
+    z-index: 1050;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+    border-radius: 0 !important;
+  }
+  .gm-carrito-panel.gm-abierto {
+    transform: translateX(0);
+  }
+  /* Fondo oscuro detrás del panel abierto */
+  .gm-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+  }
+}
+
+/* El backdrop y el botón de cerrar sólo tienen sentido en móvil */
+@media (min-width: 992px) {
+  .gm-backdrop,
+  .gm-cerrar-carrito {
+    display: none;
+  }
+}

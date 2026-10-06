@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fuente de greda de Pomaire",
+    "categoria": "Cocina",
+    "precio": 12990,
+    "descripcion": "Fuente artesanal de greda ideal para hornear y servir a la mesa.",
+    "imagen": "img/cocina-1.svg"
+  },
+  {
+    "id": 2,
+    "nombre": "Set de tazones de greda",
+    "categoria": "Cocina",
+    "precio": 9990,
+    "descripcion": "Juego de cuatro tazones de greda esmaltada, hechos a mano.",
+    "imagen": "img/cocina-2.svg"
+  },
+  {
+    "id": 3,
+    "nombre": "Individuales de mimbre (set de 4)",
+    "categoria": "Cocina",
+    "precio": 7490,
+    "descripcion": "Bajoplatos tejidos en mimbre natural para una mesa cálida.",
+    "imagen": "img/cocina-3.svg"
+  },
+  {
+    "id": 4,
+    "nombre": "Jarrón de greda esmaltada",
+    "categoria": "Decoración",
+    "precio": 15990,
+    "descripcion": "Jarrón decorativo de greda con esmalte brillante.",
+    "imagen": "img/decoracion-1.svg"
+  },
+  {
+    "id": 5,
+    "nombre": "Espejo con marco de mimbre",
+    "categoria": "Decoración",
+    "precio": 24990,
+    "descripcion": "Espejo redondo rodeado por un marco tejido en mimbre.",
+    "imagen": "img/decoracion-2.svg"
+  },
+  {
+    "id": 6,
+    "nombre": "Portavelas de greda",
+    "categoria": "Decoración",
+    "precio": 5990,
+    "descripcion": "Portavelas de greda natural para crear ambientes acogedores.",
+    "imagen": "img/decoracion-3.svg"
+  },
+  {
+    "id": 7,
+    "nombre": "Macetero de greda grande",
+    "categoria": "Jardín",
+    "precio": 18990,
+    "descripcion": "Macetero de greda de gran tamaño para plantas de interior y exterior.",
+    "imagen": "img/jardin-1.svg"
+  },
+  {
+    "id": 8,
+    "nombre": "Canasto de mimbre para plantas",
+    "categoria": "Jardín",
+    "precio": 11490,
+    "descripcion": "Canasto tejido en mimbre que embellece cualquier macetero.",
+    "imagen": "img/jardin-2.svg"
+  },
+  {
+    "id": 9,
+    "nombre": "Farol de jardín de mimbre",
+    "categoria": "Jardín",
+    "precio": 13990,
+    "descripcion": "Farol decorativo de mimbre para iluminar terrazas y jardines.",
+    "imagen": "img/jardin-3.svg"
+  }
+]
