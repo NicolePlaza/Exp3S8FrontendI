@@ -7,5 +7,5 @@ import react from '@vitejs/plugin-react'
 // En desarrollo local Vite ignora esta ruta y sirve desde "/".
 export default defineConfig({
   plugins: [react()],
-  base: 'https://github.com/NicolePlaza/Exp3S8FrontendI.git',
+  base: '/Exp3S8FrontendI/',
 })
